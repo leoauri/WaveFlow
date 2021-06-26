@@ -2,9 +2,9 @@
 # https://github.com/PaddlePaddle/Parakeet/blob/develop/parakeet/models/waveflow/waveflow_modules.py
 
 from torch import nn
-from modules import Wavenet2D, Conv2D, ZeroConv2d
+from ..modules import Wavenet2D, Conv2D, ZeroConv2d
 from torch.distributions.normal import Normal
-from functions import *
+from ..functions import *
 
 
 class WaveFlowCoupling2D(nn.Module):
