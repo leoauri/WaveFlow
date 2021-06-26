@@ -167,7 +167,7 @@ class Flow(nn.Module):
 
 
 class WaveFlow(nn.Module):
-    def __init__(self, in_channel, cin_channel, res_channel, n_height, n_flow, n_layer, layers_per_dilation_h_cycle,
+    def __init__(self, in_channel=1, cin_channel=80, res_channel=64, n_height=16, n_flow=8, n_layer=8, layers_per_dilation_h_cycle=1,
                  bipartize=False):
         super().__init__()
         self.in_channel = in_channel
