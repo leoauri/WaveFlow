@@ -1,3 +1,5 @@
+This is a hack of the repo to enable installation in a pip environment and import.
+
 ## WaveFlow: A Compact Flow-based Model for Raw Audio
 
 #### Update: Pretrained weights are now available. See links below.
